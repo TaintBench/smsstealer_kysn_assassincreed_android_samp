@@ -1,3 +1,4 @@
+# PROFILE
 # Installation:
 ![ICON](icon.png)
 # General Information:
@@ -41,7 +42,7 @@ malicious activities it performs in background.
 	android.permission.PROCESS_OUTGOING_CALLS
 	android.permission.READ_EXTERNAL_STORAGE
 	android.permission.READ_PHONE_STATE
-## Sources: 28
+## Sources: 33
 	<java.io.BufferedReader: java.lang.String readLine()>: 3
 	<java.lang.String: byte[] getBytes(java.lang.String)>: 1
 	<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>: 1
@@ -62,24 +63,36 @@ malicious activities it performs in background.
 	<android.telephony.SmsMessage: android.telephony.SmsMessage createFromPdu(byte[])>: 1
 	<java.net.URLDecoder: java.lang.String decode(java.lang.String,java.lang.String)>: 1
 	<javax.crypto.Cipher: javax.crypto.Cipher getInstance(java.lang.String)>: 1
+	<android.content.Context: java.lang.Object getSystemService(java.lang.String)>: 4
 	<android.preference.PreferenceManager: android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context)>: 4
 	<org.json.JSONObject: java.lang.String getString(java.lang.String)>: 4
 	<android.accounts.AccountManager: android.accounts.AccountManager get(android.content.Context)>: 1
+	<android.database.Cursor: java.lang.String getString(int)>: 3
+	<java.io.File: void <init>: 1
 	<java.lang.String: byte[] getBytes()>: 3
+	<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>: 1
+	<java.net.HttpURLConnection: java.io.InputStream getInputStream()>: 1
 	<android.telephony.TelephonyManager: java.lang.String getLine1Number()>: 1
 	<android.content.Intent: android.os.Bundle getExtras()>: 1
 	<android.os.Bundle: java.lang.Object get(java.lang.String)>: 1
 	<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>: 5
-## Sinks: 12
-	<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>: 2
-	<java.lang.Integer: int parseInt(java.lang.String,int)>: 1
+## Sinks: 18
+	<java.net.URL: void <init>: 1
 	<java.net.URL: java.net.URLConnection openConnection()>: 1
 	<android.net.Uri: android.net.Uri parse(java.lang.String)>: 1
+	<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>: 1
+	<java.net.HttpURLConnection: java.io.InputStream getInputStream()>: 1
+	<java.io.FileOutputStream: void <init>: 1
+	<java.lang.String: java.lang.String substring(int,int)>: 1
+	<android.os.AsyncTask: android.os.AsyncTask execute(java.lang.Object[])>: 2
+	<java.lang.Integer: int parseInt(java.lang.String,int)>: 1
+	<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>: 1
 	<android.app.AlarmManager: void setRepeating(int,long,long,android.app.PendingIntent)>: 1
 	<android.os.AsyncTask: void onPostExecute(java.lang.Object)>: 6
 	<android.app.Activity: void onCreate(android.os.Bundle)>: 1
+	<android.content.SharedPreferences$Editor: boolean commit()>: 2
+	<android.content.Context: android.content.ComponentName startService(android.content.Intent)>: 1
 	<android.telephony.gsm.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)>: 1
 	<android.content.Intent: android.content.Intent setDataAndType(android.net.Uri,java.lang.String)>: 1
-	<android.content.res.AssetManager: java.io.InputStream open(java.lang.String)>: 1
-	<java.lang.String: java.lang.String substring(int,int)>: 1
 	<java.io.OutputStream: void write(byte[],int,int)>: 2
+
