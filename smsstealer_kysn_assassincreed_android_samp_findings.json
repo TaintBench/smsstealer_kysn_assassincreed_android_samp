@@ -81,7 +81,8 @@
         "threading": true
       },
       "ID": 1,
-      "description": "This malicious flow reads the types of sms messages and send to a remote server via an HTTP POST request."
+      "description": "This malicious flow reads the types of sms messages and send to a remote server via an HTTP POST request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -161,7 +162,8 @@
         "threading": true
       },
       "ID": 2,
-      "description": "This malicious flow reads the addresses of sms messages and send to a remote server via an HTTP POST request."
+      "description": "This malicious flow reads the addresses of sms messages and send to a remote server via an HTTP POST request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -220,7 +222,8 @@
         "threading": true
       },
       "ID": 3,
-      "description": "This malicious flow reads the IMSI of the device and sends it to a remote server via an HTTP POST request."
+      "description": "This malicious flow reads the IMSI of the device and sends it to a remote server via an HTTP POST request.",
+      "isNegative": false
     },
     {
       "source": {
@@ -337,7 +340,8 @@
         "threading": true
       },
       "ID": 4,
-      "description": "This malicious flow reads command and decrypts information from a remote server and store data into shared perference."
+      "description": "This malicious flow reads command and decrypts information from a remote server and store data into shared perference.",
+      "isNegative": false
     },
     {
       "source": {
@@ -442,7 +446,8 @@
         "threading": true
       },
       "ID": 5,
-      "description": "This malicious flow reads command and decrypts information from a remote server and sends a multi-part text based SMS."
+      "description": "This malicious flow reads command and decrypts information from a remote server and sends a multi-part text based SMS.",
+      "isNegative": false
     }
   ]
 }
